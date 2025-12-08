@@ -1,6 +1,9 @@
-*.cpp linguist-vendored
-*.cc linguist-vendored
-*.h linguist-vendored
-*.ipynb linguist-vendored
-android/** linguist-vendored
-ios/** linguist-vendored
+*.cmake linguist-detectable=false
+*.txt linguist-detectable=false
+CMakeLists.txt linguist-detectable=false
+
+android/ linguist-detectable=false
+ios/ linguist-detectable=false
+linux/ linguist-detectable=false
+windows/ linguist-detectable=false
+macos/ linguist-detectable=false
