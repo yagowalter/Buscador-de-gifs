@@ -1,5 +1,6 @@
-*.dart linguist-detectable=true
-*.dart linguist-language=Dart
-
+*.cpp linguist-vendored
+*.cc linguist-vendored
+*.h linguist-vendored
+*.ipynb linguist-vendored
 android/** linguist-vendored
 ios/** linguist-vendored
